@@ -1,31 +1,32 @@
 body {
 	background-color: #000000;
+    background-image: url("../images/worcester.jpg");
 }
 
 .navbar {
-	background-color: #000000;
+    border-color: transparent;
+	background-color: transparent;
 }
 
 .jumbotron {
 	width: 100%;
 	height: 100%;
-    padding-left: 200px;
-    padding-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    background-color: black;
+    padding-top: 150px;
+    padding-left: 1000px;
+    background-color: transparent;
+    background-size: cover;
 }
 
 .jumbotron .jumbotron-hi {
-    color: white;
-    font-size: 78px;
-	font-style: bold;
+    color: black;
+    font-size: 80px;
+    font-style: bold;
+	font-weight: 700;
     font-family: "Century Gothic";
 }
 
 .jumbotron .jumbotron-pos {
-    color: white;
+    color: black;
     font-size: 40px;
     font-family: "Josefin Slab";
 }
@@ -39,13 +40,8 @@ body {
 }
 
 .fa {  
-    color: #888888;
+    color: #ffffff;
     margin: 2px;
-}
-
-.global_bottom {
-    position: absolute; 
-    bottom: 0px;
 }
 
 .parent {
@@ -60,8 +56,16 @@ body {
 }
 
 footer {
-background-color: white;
-bottom: 0;
-height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    height: 100px;
     width: 100%;
+}
+
+.social_icon {
+    width: 40px;
+    height: 40px;
 }

@@ -2,11 +2,13 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title>Hung Nguyen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/bootstrap-social.css" rel="stylesheet">
     <link href="css/mystyle.css" rel="stylesheet">
     
     <!-- Fonts -->
@@ -18,7 +20,6 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poller+One" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Almendra" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=KeepCalm" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Londrina+Sketch" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico" />
@@ -26,21 +27,33 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Impact" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Century+Gothic" />
+
+    <!-- Jquery Snow Effects -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./snow/jquery.flurry.js"></script>
+    <script>
+      $(document).ready(function() {
+
+        // Custom snow toggle
+            $('body').flurry({
+              character: '❄❅❆*',
+              height: 900,
+              speed: 6000,
+              wind: 200,
+              windVariance: 220,
+              frequency: 10,
+              large: 30,
+              small: 4
+            });
+        });
+    </script>
 </head>
 
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background: transparent;">
         <div class="container">
-            <!-- Logo and responsive toggle -->
-            <!--<div class="navbar-header" >
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" style="background-color: #000000;">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>-->
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav">
@@ -49,54 +62,29 @@
                     </li>
                     <li>
                         <a href="https://drive.google.com/open?id=0B-08DAVJfPMgODRmbTNvdzhaa28" class="century_gothic">Resume</a>
-                    </li>
-                  
-					<!--<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chat Bots <span class="caret"></span></a>
-						<ul class="dropdown-menu" aria-labelledby="about-us">
-							<li><a href="http://www.cleverbot.com/">Cleverbot</a></li>
-							<li><a href="http://www.eviebot.com/en/">Eviebot</a></li>
-							<li><a href="https://www.boibot.com/en/">Boibot</a></li>
-						</ul>
-					</li>-->
+                    </li>                  
                 </ul>
-
-				<!-- Search -->
-				<!--<form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control">
-					</div>
-					<button type="submit" class="btn btn-default">Search</button>
-				</form>-->
-
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
 	</nav> 
 
-	<div class="jumbotron" style="background-color: transparent;">
+	<div class="jumbotron">
 		<div class="container">
 			<h1 class="jumbotron-hi">Hung Nguyen</h1>
 			<p class="jumbotron-pos">software engineer. graphic designer. </p>
-			<!--<p><a class="btn btn-default" href="#">Engage Now</a></p>-->
 		</div>
 	</div>
-   
-    <!--<div class="center">
-        <p><b>Note: </b>Using margin:auto will not work in IE8, unless a !DOCTYPE is declared.</p>
-    </div>-->
-
-    <footer class="global_bottom">
-            <div class="child">
-                <a href="https://github.com/hungdnguyen"><i class="fa  fa-github-square fa-3x" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/hungducnguyen"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-                <a href="https://facebook.com/iamhungnguyen"><i class="fa   fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-            </div>
+ 
+    <footer>
+        <div class="child">
+            <a href="https://github.com/hungdnguyen"><img class="social_icon" src="./images/github_icon.png"></img></a>
+            <a href="https://www.linkedin.com/in/hungducnguyen"><img class="social_icon" src="./images/linkedin_icon.png"></img></a>
+            <a href="https://facebook.com/iamhungnguyen"><img class="social_icon" src="./images/facebook_icon.png"></img></a>
+        </div>
     </footer>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
