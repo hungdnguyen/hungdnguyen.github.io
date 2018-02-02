@@ -40,4 +40,30 @@ body {
 
 .fa {
 	color: #ffffff;
+    margin: 2px;
 }
+
+.global_bottom {
+    position: absolute; 
+    bottom: 0px;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
