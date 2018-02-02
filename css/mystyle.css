@@ -38,8 +38,8 @@ body {
 	font-family: "Century Gothic";
 }
 
-.fa {
-	color: #ffffff;
+.fa {  
+    color: #888888;
     margin: 2px;
 }
 
@@ -48,22 +48,20 @@ body {
     bottom: 0px;
 }
 
-footer {
-    background-color: white;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-}
-
 .parent {
     position: relative;
 }
 
-.child {
+.child { 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-
+footer {
+background-color: white;
+bottom: 0;
+height: 100px;
+    width: 100%;
+}
