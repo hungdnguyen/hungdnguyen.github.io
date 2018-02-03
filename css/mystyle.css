@@ -12,14 +12,14 @@ body {
 	width: 100%;
 	height: 100%;
     padding-top: 150px;
-    padding-left: 1000px;
+    padding-left: 1100px;
     background-color: transparent;
     background-size: cover;
 }
 
 .jumbotron .jumbotron-hi {
     color: black;
-    font-size: 80px;
+    font-size: 60px;
     font-style: bold;
 	font-weight: 700;
     font-family: "Century Gothic";
@@ -27,7 +27,7 @@ body {
 
 .jumbotron .jumbotron-pos {
     color: black;
-    font-size: 40px;
+    font-size: 25px;
     font-family: "Josefin Slab";
 }
 
